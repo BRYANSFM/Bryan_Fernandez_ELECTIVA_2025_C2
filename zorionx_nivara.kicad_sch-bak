@@ -1,0 +1,20 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c1255741-5652-463a-8cfd-bd2388ad7ef1")
+	(paper "A4")
+	(title_block
+		(title "ZorionX - Nivara")
+		(date "2025-06-06")
+		(rev "1")
+		(company "ELECTIVA ITLA")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
