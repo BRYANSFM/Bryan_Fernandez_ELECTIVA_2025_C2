@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "0f28b801-d347-4bf4-9959-290e908b226e")
+	(uuid "abe5aa13-ffa3-435b-8f9a-f7b2244b7594")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:LED"
@@ -908,9 +908,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Entrada PNP #1"
+	(text "Entrada DIGITAL #1"
 		(exclude_from_sim no)
-		(at 138.43 63.5 0)
+		(at 130.81 43.942 0)
 		(effects
 			(font
 				(face "Century")
@@ -920,11 +920,11 @@
 				(color 255 95 50 1)
 			)
 		)
-		(uuid "ccd32230-5e08-492a-a874-4a83b6e27c37")
+		(uuid "c4aa694d-daea-49e0-924d-1d681e1b39c3")
 	)
-	(text "Entrada PNP #2"
+	(text "Entrada DIGITAL #2"
 		(exclude_from_sim no)
-		(at 141.732 112.776 0)
+		(at 132.08 85.09 0)
 		(effects
 			(font
 				(face "Century")
@@ -934,548 +934,589 @@
 				(color 255 95 50 1)
 			)
 		)
-		(uuid "f92b5304-30c3-4f1b-96fa-e7f9cdfa3c45")
+		(uuid "d5ac78d6-6624-4c59-8bb2-e77d3f6e6e1f")
+	)
+	(text "RUN/STOP"
+		(exclude_from_sim no)
+		(at 130.302 134.62 0)
+		(effects
+			(font
+				(face "Century")
+				(size 2.54 2.54)
+				(bold yes)
+				(italic yes)
+				(color 255 95 50 1)
+			)
+		)
+		(uuid "db184cc2-d3b4-48b2-b1a0-24316683e3cb")
 	)
 	(junction
-		(at 152.4 77.47)
+		(at 140.97 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1b520f56-721d-4e8a-ac71-5805f06ed518")
+		(uuid "1a5c98e7-4a58-4fdd-96e0-bddf3d95f3d1")
 	)
 	(junction
-		(at 153.67 128.27)
+		(at 146.05 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bd50162b-0977-4e6b-a912-c5dac559ebdb")
+		(uuid "71f36ab2-aec4-4fd3-80fe-6f9e6395a28a")
+	)
+	(junction
+		(at 142.24 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ea39ad2-6edf-46f5-9d61-691a370b1f5e")
+	)
+	(junction
+		(at 147.32 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "946fd93b-50b8-42c8-9cdc-2ab352d8e875")
+	)
+	(junction
+		(at 142.24 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a660e07e-bbca-4133-8569-40cec9d47993")
+	)
+	(junction
+		(at 147.32 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e75ef034-b135-4c91-9cea-9fe5fc8212d0")
 	)
 	(wire
 		(pts
-			(xy 175.26 77.47) (xy 180.34 77.47)
+			(xy 147.32 62.23) (xy 147.32 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "03a26a2a-a2b6-4481-9cef-e3a6dd5c035f")
+		(uuid "0c514967-1631-4009-9d91-084ebeed62af")
 	)
 	(wire
 		(pts
-			(xy 167.64 133.35) (xy 153.67 133.35)
+			(xy 167.64 149.86) (xy 166.37 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0efe7de4-e285-4a40-8983-fb660bf480cb")
+		(uuid "1b88c8c3-2b5e-4921-a9c9-d5c49b753fa2")
 	)
 	(wire
 		(pts
-			(xy 147.32 77.47) (xy 152.4 77.47)
+			(xy 106.68 55.88) (xy 111.76 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0feabc5d-0165-49a8-b900-27383ecc595f")
+		(uuid "2605d69e-4826-4429-9844-175e0190153d")
 	)
 	(wire
 		(pts
-			(xy 129.54 77.47) (xy 132.08 77.47)
+			(xy 175.26 100.33) (xy 181.61 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1949608b-d01e-42b9-bb26-f9a68dbd116e")
+		(uuid "2aef06c5-1328-4243-88aa-420d5a2aaebc")
 	)
 	(wire
 		(pts
-			(xy 130.81 133.35) (xy 133.35 133.35)
+			(xy 119.38 149.86) (xy 124.46 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c9a1b56-6056-4f3e-b0d8-0e6207fb373a")
+		(uuid "2bce34a4-5402-4e1c-b33e-d2ae4a2e3978")
 	)
 	(wire
 		(pts
-			(xy 149.86 82.55) (xy 149.86 88.9)
+			(xy 167.64 100.33) (xy 166.37 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1fe7ed6d-1feb-4c2b-9359-e744d846724b")
+		(uuid "2f3ae432-d421-478d-96d5-9c0ed90d9564")
 	)
 	(wire
 		(pts
-			(xy 153.67 133.35) (xy 153.67 128.27)
+			(xy 139.7 55.88) (xy 147.32 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "23b735af-a332-4a9f-b489-581cadee07cd")
+		(uuid "30912871-b3de-4d68-8365-4d214e2bc820")
 	)
 	(wire
 		(pts
-			(xy 115.57 77.47) (xy 121.92 77.47)
+			(xy 175.26 149.86) (xy 177.8 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "271aca1d-7cd2-472b-9343-4e2381b5e2bf")
+		(uuid "38418895-d18b-4b53-8190-e64b7bdfe7ad")
 	)
 	(wire
 		(pts
-			(xy 167.64 77.47) (xy 166.37 77.47)
+			(xy 139.7 149.86) (xy 147.32 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2c2b568f-594a-4a13-937a-d641bec1eec7")
+		(uuid "3938ee2b-857a-4280-9454-fdef0d47cb31")
 	)
 	(wire
 		(pts
-			(xy 152.4 77.47) (xy 158.75 77.47)
+			(xy 106.68 149.86) (xy 111.76 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f6f2448-cb15-4ec0-92f8-77bf26792ac7")
+		(uuid "4100f6d2-36fb-46a3-a776-aa26c46a1e01")
 	)
 	(wire
 		(pts
-			(xy 130.81 128.27) (xy 133.35 128.27)
+			(xy 165.1 156.21) (xy 147.32 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35efa586-0bcb-4038-9488-18445686e69c")
+		(uuid "4114b1fb-de2a-44e2-a1a3-ccea62d9471f")
 	)
 	(wire
 		(pts
-			(xy 153.67 128.27) (xy 161.29 128.27)
+			(xy 147.32 55.88) (xy 160.02 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "619a5871-822c-4194-b35f-03f87efb23cc")
+		(uuid "44cddfc6-80ef-439e-9852-94aa498d4ac2")
 	)
 	(wire
 		(pts
-			(xy 128.27 82.55) (xy 132.08 82.55)
+			(xy 105.41 100.33) (xy 110.49 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d3af45c-65dc-4e6c-b11f-be2326e43c57")
+		(uuid "4bd9b74c-10a5-4b00-a0a0-7ad24e9c9bdb")
 	)
 	(wire
 		(pts
-			(xy 152.4 82.55) (xy 152.4 77.47)
+			(xy 146.05 100.33) (xy 158.75 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "83ff71bb-236d-478a-9b1c-175fc527b7c6")
+		(uuid "4c260c53-ef22-4f0c-89e4-e83ee8c8f0a3")
 	)
 	(wire
 		(pts
-			(xy 166.37 82.55) (xy 152.4 82.55)
+			(xy 168.91 55.88) (xy 167.64 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9eaebaa5-984a-4320-a2c2-ebf87908f138")
+		(uuid "4ca71c04-160f-4e64-ad72-a880d6ce8728")
 	)
 	(wire
 		(pts
-			(xy 149.86 82.55) (xy 147.32 82.55)
+			(xy 123.19 60.96) (xy 123.19 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ad527c6e-ebba-4e87-b080-5ea88599cb52")
+		(uuid "4f1e4eb2-9aab-49e4-8911-eaab77241b8f")
 	)
 	(wire
 		(pts
-			(xy 130.81 140.97) (xy 130.81 133.35)
+			(xy 124.46 154.94) (xy 123.19 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0435909-6444-4ceb-8b1f-6fdabd9d6d01")
+		(uuid "5ea0a18a-249a-430e-9807-fc3c56f50eb9")
 	)
 	(wire
 		(pts
-			(xy 115.57 128.27) (xy 123.19 128.27)
+			(xy 123.19 105.41) (xy 121.92 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b740ad77-f789-41fb-aacb-d3e05155d29a")
+		(uuid "5f481baa-5b01-4ead-b1ec-a4a1e11a783c")
 	)
 	(wire
 		(pts
-			(xy 177.8 128.27) (xy 181.61 128.27)
+			(xy 147.32 156.21) (xy 147.32 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d0de7c39-dd05-4d33-9dba-c431e03d88b7")
+		(uuid "6a90354e-a10c-4382-9c2a-b0909badf365")
 	)
 	(wire
 		(pts
-			(xy 128.27 86.36) (xy 128.27 82.55)
+			(xy 142.24 160.02) (xy 142.24 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e237410a-84d9-44a9-95c2-beeabc84aae5")
+		(uuid "746461b7-f2bd-48f0-bf29-f52596f36f5f")
 	)
 	(wire
 		(pts
-			(xy 170.18 128.27) (xy 168.91 128.27)
+			(xy 121.92 110.49) (xy 140.97 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e259ba5a-a12c-4974-ab70-968429ed9070")
+		(uuid "754bead6-548e-4858-9abe-5d05fb3a49ff")
 	)
 	(wire
 		(pts
-			(xy 151.13 133.35) (xy 151.13 139.7)
+			(xy 119.38 55.88) (xy 124.46 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e36890a5-19df-4170-8e21-b3a3bb73fc69")
+		(uuid "75f80545-5e3d-4dbb-9b4a-62768644bb58")
 	)
 	(wire
 		(pts
-			(xy 151.13 133.35) (xy 148.59 133.35)
+			(xy 123.19 154.94) (xy 123.19 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e5f2524d-b0ce-4b2f-af22-d6854d2157cb")
+		(uuid "77caea43-525a-4b89-98e7-962b017d79c7")
 	)
 	(wire
 		(pts
-			(xy 148.59 128.27) (xy 153.67 128.27)
+			(xy 176.53 55.88) (xy 182.88 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eb90dd5e-6601-4786-8bd5-9ce9e03bf9c7")
+		(uuid "78265849-087e-4538-8cd9-61e35063d32b")
 	)
-	(hierarchical_label "PNP_IN_2"
+	(wire
+		(pts
+			(xy 142.24 154.94) (xy 142.24 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "847e7125-a3d1-4414-adf2-dc296d53399a")
+	)
+	(wire
+		(pts
+			(xy 140.97 110.49) (xy 140.97 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "849058e3-6ff7-4145-a91f-eb5524935e9b")
+	)
+	(wire
+		(pts
+			(xy 142.24 60.96) (xy 139.7 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86514576-96e4-4092-a7a9-18f1d9a024bd")
+	)
+	(wire
+		(pts
+			(xy 118.11 100.33) (xy 123.19 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8698340c-b349-4837-a134-632512b0c686")
+	)
+	(wire
+		(pts
+			(xy 124.46 60.96) (xy 123.19 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "971ccc1a-5660-44ac-9249-d3df7e838823")
+	)
+	(wire
+		(pts
+			(xy 142.24 66.04) (xy 142.24 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adfcdbc6-0793-4cfe-8108-11c52158fac3")
+	)
+	(wire
+		(pts
+			(xy 140.97 105.41) (xy 138.43 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b126290e-3835-49ae-b1b6-1b3fd865afb2")
+	)
+	(wire
+		(pts
+			(xy 140.97 105.41) (xy 140.97 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4ee77d7-19aa-4623-bc59-c1e5a5da6528")
+	)
+	(wire
+		(pts
+			(xy 121.92 105.41) (xy 121.92 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5020a66-8f72-4967-9901-2f5aa125ccdc")
+	)
+	(wire
+		(pts
+			(xy 147.32 149.86) (xy 158.75 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c30277c6-8f85-4e2a-83ba-02b9126b3de4")
+	)
+	(wire
+		(pts
+			(xy 142.24 154.94) (xy 139.7 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d013db4b-7ac5-42bd-9011-452f780a03e5")
+	)
+	(wire
+		(pts
+			(xy 165.1 62.23) (xy 147.32 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5121dc1-0c5d-4b33-ab32-25df831f1602")
+	)
+	(wire
+		(pts
+			(xy 142.24 60.96) (xy 142.24 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0faebbf-51e0-49a4-a689-fcb1d32e6f99")
+	)
+	(wire
+		(pts
+			(xy 138.43 100.33) (xy 146.05 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e197871f-3ef8-4a9c-b2f3-37b42f1d80a1")
+	)
+	(wire
+		(pts
+			(xy 123.19 66.04) (xy 142.24 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1b959c9-c0d8-4493-923c-d352224d3f43")
+	)
+	(wire
+		(pts
+			(xy 123.19 160.02) (xy 142.24 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5482c15-769d-4a9c-abba-4b0ddddcc08f")
+	)
+	(wire
+		(pts
+			(xy 163.83 106.68) (xy 146.05 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f71f6888-5fe7-476f-9de4-b2cc00d8e9eb")
+	)
+	(wire
+		(pts
+			(xy 146.05 106.68) (xy 146.05 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc8be365-4692-4436-ae4e-668bd3bf0740")
+	)
+	(hierarchical_label "RUN{slash}STOP"
 		(shape input)
-		(at 115.57 128.27 180)
+		(at 106.68 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "0ab9ae89-2ccf-4404-b106-463e2ccd0cd2")
+		(uuid "360a98a6-3c9c-4c4d-a600-24de9c625a6d")
 	)
-	(hierarchical_label "+3.3V"
-		(shape output)
-		(at 181.61 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "462354e1-5280-44d6-9f7d-c011c746dbbe")
-	)
-	(hierarchical_label "+3.3V"
-		(shape output)
-		(at 180.34 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "46ed3698-d6da-491c-af0a-7683bba882af")
-	)
-	(hierarchical_label "ESP32-S3_PNP_IN_2"
-		(shape output)
-		(at 167.64 133.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6ba682f7-0b50-4352-98e3-db8b496a0c31")
-	)
-	(hierarchical_label "ESP32-S3_PNP_IN_1"
-		(shape output)
-		(at 166.37 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ad10378f-6053-4663-99a4-59fe80d9d4a6")
-	)
-	(hierarchical_label "PNP_IN_1"
+	(hierarchical_label "DIGITAL_IN_1"
 		(shape input)
-		(at 115.57 77.47 180)
+		(at 106.68 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "b963cf63-b780-4c91-85fc-f1b97824a042")
+		(uuid "3a1eb9b5-80c4-4e36-914e-d700ffef597e")
 	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 165.1 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "052eeedb-f565-4139-80ae-31ef2c56dd46")
-		(property "Reference" "D3"
-			(at 161.29 122.174 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+	(hierarchical_label "ESP32-S3_DIGITAL_IN_2"
+		(shape output)
+		(at 163.83 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Value" "LED ON"
-			(at 161.29 124.714 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 165.1 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 165.1 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 165.1 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "41398028-d7b4-451c-9b66-f6e9cec9e694")
-		)
-		(pin "2"
-			(uuid "6c365834-a1bd-4ea7-98e8-d313b8694bc2")
-		)
-		(instances
-			(project "zorionx_nivara"
-				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/b48223f4-1983-42c0-b24e-fccbc0bccb73"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "4cf67974-e77b-492d-8aab-23b2fc1c5800")
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 151.13 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a368772-d9d7-47ad-b69f-2f888fec92a0")
-		(property "Reference" "#PWR029"
-			(at 151.13 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 177.8 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Value" "GND"
-			(at 151.13 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c1afb46-c09c-447a-83bb-d3e66af1dbe8")
-		)
-		(instances
-			(project "zorionx_nivara"
-				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/b48223f4-1983-42c0-b24e-fccbc0bccb73"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "5cd30966-6e3f-4d3a-8e5a-60ae14da92c7")
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 149.86 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1bb6fb98-e1c3-47a4-995c-be47c11bba6f")
-		(property "Reference" "#PWR028"
-			(at 149.86 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+	(hierarchical_label "ESP32-S3_DIGITAL_IN_1"
+		(shape output)
+		(at 165.1 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Value" "GND"
-			(at 149.86 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(uuid "81950d43-fb29-40fa-9395-c233d2bb02b6")
+	)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 182.88 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Footprint" ""
-			(at 149.86 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(uuid "99fd05d2-4f9b-4df1-8326-13f3e002d612")
+	)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 181.61 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Datasheet" ""
-			(at 149.86 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(uuid "a54b396e-0ae7-4186-85e0-edcb7bd8113c")
+	)
+	(hierarchical_label "ESP32-S3_RUN_IN"
+		(shape output)
+		(at 165.1 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(uuid "ba90f1e0-3283-4e56-9e4d-bc5ac1e0e01a")
+	)
+	(hierarchical_label "DIGITAL_IN_2"
+		(shape input)
+		(at 105.41 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(pin "1"
-			(uuid "389a5298-54d2-436c-9a7a-3b7915153ffd")
-		)
-		(instances
-			(project "zorionx_nivara"
-				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/b48223f4-1983-42c0-b24e-fccbc0bccb73"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "d861c3ba-be16-43b7-ad30-d65b4ea2622f")
 	)
 	(symbol
 		(lib_id "PCM_Resistor_US_AKL:R_0603")
-		(at 125.73 77.47 90)
+		(at 115.57 149.86 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1d7378e4-12b9-49f8-99e4-cdcb98fbc410")
-		(property "Reference" "R10"
-			(at 125.73 71.12 90)
+		(uuid "0951852d-2853-4b3e-b639-15882d3eab4b")
+		(property "Reference" "R18"
+			(at 115.57 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1483,7 +1524,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 125.73 73.66 90)
+			(at 115.57 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1491,7 +1532,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 137.16 77.47 0)
+			(at 127 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1500,7 +1541,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 77.47 0)
+			(at 115.57 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1509,7 +1550,7 @@
 			)
 		)
 		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
-			(at 125.73 77.47 0)
+			(at 115.57 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1518,15 +1559,240 @@
 			)
 		)
 		(pin "2"
-			(uuid "fa8bc69c-8975-4ac9-9936-90ad83fffa0a")
+			(uuid "26d6e5f4-f6c7-47a1-8d29-5f678dc58087")
 		)
 		(pin "1"
-			(uuid "71173e9a-47d9-4ccc-b119-46fbe77a0e84")
+			(uuid "e100192a-ae89-46e5-ab3a-9bbb47842ef3")
 		)
 		(instances
 			(project "zorionx_nivara"
-				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/b48223f4-1983-42c0-b24e-fccbc0bccb73"
-					(reference "R10")
+				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/aa7002a9-6519-43d1-962e-402912e8a658"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 162.56 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1492d85c-3c0c-4874-8c95-dd403a0007b2")
+		(property "Reference" "D5"
+			(at 158.75 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED ON"
+			(at 158.75 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 162.56 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 162.56 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 162.56 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7176742-334f-48e4-b2a2-02aecdf614df")
+		)
+		(pin "2"
+			(uuid "fec4eb77-0d6b-48f8-8883-fdb167d77896")
+		)
+		(instances
+			(project "zorionx_nivara"
+				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/aa7002a9-6519-43d1-962e-402912e8a658"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 163.83 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1cacd468-2ce9-46e7-9216-969884155162")
+		(property "Reference" "D4"
+			(at 160.02 49.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED ON"
+			(at 160.02 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 163.83 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 163.83 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 163.83 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc9554ff-fd44-4ff3-857e-7f1a1cab8ddb")
+		)
+		(pin "2"
+			(uuid "a5e33b81-afeb-470b-a298-fb59ad5a55b3")
+		)
+		(instances
+			(project "zorionx_nivara"
+				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/aa7002a9-6519-43d1-962e-402912e8a658"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_US_AKL:R_0603")
+		(at 172.72 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5633b591-4ec5-4f8c-aded-96956dd3249a")
+		(property "Reference" "R12"
+			(at 171.45 50.292 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "180"
+			(at 171.45 52.832 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 161.29 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 172.72 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7248a7ae-5ac3-41ec-bccf-af28eed64b80")
+		)
+		(pin "1"
+			(uuid "5c6afceb-ba04-4948-afee-0a9d7d7da858")
+		)
+		(instances
+			(project "zorionx_nivara"
+				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/aa7002a9-6519-43d1-962e-402912e8a658"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -1534,16 +1800,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 140.97 0)
+		(at 140.97 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2732d325-5e62-41bc-9492-54cab53286c6")
-		(property "Reference" "#PWR020"
-			(at 130.81 147.32 0)
+		(uuid "6368cf15-7c85-4926-9a3d-d36ddda29c70")
+		(property "Reference" "#PWR030"
+			(at 140.97 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1552,7 +1818,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 146.05 0)
+			(at 140.97 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1560,7 +1826,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 140.97 0)
+			(at 140.97 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1569,7 +1835,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 140.97 0)
+			(at 140.97 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1578,7 +1844,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 140.97 0)
+			(at 140.97 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1587,12 +1853,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "424a3b3c-28fa-4263-94a7-56c5626e3376")
+			(uuid "610c79db-a730-40b2-9116-b095a7ad075f")
 		)
 		(instances
 			(project "zorionx_nivara"
-				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/b48223f4-1983-42c0-b24e-fccbc0bccb73"
-					(reference "#PWR020")
+				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/aa7002a9-6519-43d1-962e-402912e8a658"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "695bf13c-dbcc-487d-b30b-cb3bd17339c7")
+		(property "Reference" "#PWR031"
+			(at 142.24 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ce8e18d-c5c3-425d-a470-2873d272758b")
+		)
+		(instances
+			(project "zorionx_nivara"
+				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/aa7002a9-6519-43d1-962e-402912e8a658"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -1600,16 +1932,16 @@
 	)
 	(symbol
 		(lib_id "Isolator:LTV-357T")
-		(at 139.7 80.01 0)
+		(at 132.08 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "50cdd7ce-b9bc-47e8-a8b5-1a5d63c59827")
-		(property "Reference" "U5"
-			(at 139.7 71.12 0)
+		(uuid "9ce70936-9a84-47b4-9eb1-a36bde1c03d3")
+		(property "Reference" "U11"
+			(at 132.08 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1617,7 +1949,7 @@
 			)
 		)
 		(property "Value" "LTV-357T"
-			(at 139.7 73.66 0)
+			(at 132.08 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1625,7 +1957,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SO-4_4.4x3.6mm_P2.54mm"
-			(at 134.62 85.09 0)
+			(at 127 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1636,7 +1968,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Transistor-Photovoltaic-Output-Optoisolators_LITEON-LTV-357T-B_C33068.html?s_z=n_LTV-357T"
-			(at 139.7 80.01 0)
+			(at 132.08 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1646,7 +1978,7 @@
 			)
 		)
 		(property "Description" "35V 3.75kV 50mA 200mV@1mA,20mA 1 6V 1.2V DC SOP-4-2.54mm Transistor, Photovoltaic Output Optoisolators ROHS"
-			(at 139.7 80.01 0)
+			(at 132.08 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1655,156 +1987,21 @@
 			)
 		)
 		(pin "3"
-			(uuid "08fd1393-61a4-415b-bbc2-7c18c57906e5")
+			(uuid "ba87c426-59e5-48dd-84e5-5a27225311cf")
 		)
 		(pin "4"
-			(uuid "82e85311-3d10-43a6-8193-3a511520f017")
+			(uuid "da732e91-c8f3-4fbc-b064-5692656223fb")
 		)
 		(pin "1"
-			(uuid "42a4bf9b-37b6-459b-82c1-92f2977f08ed")
+			(uuid "485592d2-7927-4962-91cc-535975638a4d")
 		)
 		(pin "2"
-			(uuid "0e8766bd-c3fb-4094-a07c-e90f2c2f531b")
+			(uuid "012eb9d7-5210-4bf4-9482-4b3d3d4ddcb2")
 		)
 		(instances
 			(project "zorionx_nivara"
-				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/b48223f4-1983-42c0-b24e-fccbc0bccb73"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 128.27 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f81b2cd-ceee-4408-a3fa-0a52740a3c56")
-		(property "Reference" "#PWR019"
-			(at 128.27 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 128.27 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "681e648c-d8e4-4d47-9250-cbb87ad6b71c")
-		)
-		(instances
-			(project "zorionx_nivara"
-				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/b48223f4-1983-42c0-b24e-fccbc0bccb73"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Resistor_US_AKL:R_0603")
-		(at 173.99 128.27 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8079b976-714f-475f-a17a-7ed53ef94822")
-		(property "Reference" "R9"
-			(at 172.72 122.682 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "180"
-			(at 172.72 125.222 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 162.56 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 173.99 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
-			(at 173.99 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4d317c37-1d6c-43a5-9021-56570b0a6987")
-		)
-		(pin "1"
-			(uuid "f881656e-a7f7-4eb4-af9d-30b3111b911d")
-		)
-		(instances
-			(project "zorionx_nivara"
-				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/b48223f4-1983-42c0-b24e-fccbc0bccb73"
-					(reference "R9")
+				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/aa7002a9-6519-43d1-962e-402912e8a658"
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -1812,15 +2009,15 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 162.56 77.47 0)
+		(at 162.56 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d288a633-6684-471c-9986-ddcf26320b5d")
-		(property "Reference" "D2"
-			(at 158.75 71.374 0)
+		(uuid "9f0692de-96aa-457a-befc-e2d28c8095df")
+		(property "Reference" "D6"
+			(at 158.75 143.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1829,7 +2026,7 @@
 			)
 		)
 		(property "Value" "LED ON"
-			(at 158.75 73.914 0)
+			(at 158.75 146.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1838,7 +2035,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 162.56 77.47 0)
+			(at 162.56 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1847,7 +2044,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 77.47 0)
+			(at 162.56 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1856,7 +2053,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 162.56 77.47 0)
+			(at 162.56 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1865,7 +2062,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 162.56 77.47 0)
+			(at 162.56 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1874,48 +2071,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "9d0428ed-c619-4fef-a73a-74c56b43f4eb")
+			(uuid "80115601-f612-45ce-a5fc-691b578987cf")
 		)
 		(pin "2"
-			(uuid "6af56bbe-f394-447b-a0e8-9d48ad5a5ce4")
+			(uuid "097022d7-58cb-4b47-be99-d18ed80928da")
 		)
 		(instances
 			(project "zorionx_nivara"
-				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/b48223f4-1983-42c0-b24e-fccbc0bccb73"
-					(reference "D2")
+				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/aa7002a9-6519-43d1-962e-402912e8a658"
+					(reference "D6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "PCM_Resistor_US_AKL:R_0603")
-		(at 127 128.27 90)
+		(lib_id "power:GND")
+		(at 142.24 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e44a949d-6723-45d3-9e06-07691d93af9d")
-		(property "Reference" "R11"
-			(at 127 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 127 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 138.43 128.27 0)
+		(uuid "b565bb80-739e-4320-b69b-fe43effdb02b")
+		(property "Reference" "#PWR026"
+			(at 142.24 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1923,8 +2104,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 127 128.27 0)
+		(property "Value" "GND"
+			(at 142.24 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1932,8 +2121,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
-			(at 127 128.27 0)
+		(property "Datasheet" ""
+			(at 142.24 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1941,16 +2130,22 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "af5a9c86-8287-4bc2-bb81-9c804c378201")
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "296f67c1-b0d5-47ad-b7e4-8818b98157d5")
+			(uuid "e105e42c-81f1-440e-b9a2-ff0ea0cb037d")
 		)
 		(instances
 			(project "zorionx_nivara"
-				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/b48223f4-1983-42c0-b24e-fccbc0bccb73"
-					(reference "R11")
+				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/aa7002a9-6519-43d1-962e-402912e8a658"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -1958,16 +2153,16 @@
 	)
 	(symbol
 		(lib_id "Isolator:LTV-357T")
-		(at 140.97 130.81 0)
+		(at 130.81 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e6c8c388-1126-4ffc-b73b-a5ee12dc14a1")
-		(property "Reference" "U6"
-			(at 140.97 121.92 0)
+		(uuid "c17bdebf-86d7-4194-8c06-d9711ecc3d34")
+		(property "Reference" "U7"
+			(at 130.81 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1975,7 +2170,7 @@
 			)
 		)
 		(property "Value" "LTV-357T"
-			(at 140.97 124.46 0)
+			(at 130.81 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1983,7 +2178,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SO-4_4.4x3.6mm_P2.54mm"
-			(at 135.89 135.89 0)
+			(at 125.73 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1994,7 +2189,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Transistor-Photovoltaic-Output-Optoisolators_LITEON-LTV-357T-B_C33068.html?s_z=n_LTV-357T"
-			(at 140.97 130.81 0)
+			(at 130.81 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2004,7 +2199,7 @@
 			)
 		)
 		(property "Description" "35V 3.75kV 50mA 200mV@1mA,20mA 1 6V 1.2V DC SOP-4-2.54mm Transistor, Photovoltaic Output Optoisolators ROHS"
-			(at 140.97 130.81 0)
+			(at 130.81 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2013,21 +2208,21 @@
 			)
 		)
 		(pin "3"
-			(uuid "cee0036e-c965-4bbb-8c11-600c30858784")
+			(uuid "a2fe88e8-07cc-477e-8966-38f6db3de6b2")
 		)
 		(pin "4"
-			(uuid "65b64f1e-00e3-43d9-b3ba-3e2293ab9390")
+			(uuid "2cbf8320-ef33-441f-8666-d1bdbbd8da45")
 		)
 		(pin "1"
-			(uuid "f5f0d486-14fc-4570-a269-b29363d5c69b")
+			(uuid "e305e612-3997-4dde-a07c-99c0ce6d7262")
 		)
 		(pin "2"
-			(uuid "5ec5b346-701f-40b7-90c1-92e56629af98")
+			(uuid "71397bed-7596-4689-bb7f-2334bacb58fa")
 		)
 		(instances
 			(project "zorionx_nivara"
-				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/b48223f4-1983-42c0-b24e-fccbc0bccb73"
-					(reference "U6")
+				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/aa7002a9-6519-43d1-962e-402912e8a658"
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -2035,15 +2230,15 @@
 	)
 	(symbol
 		(lib_id "PCM_Resistor_US_AKL:R_0603")
-		(at 171.45 77.47 270)
+		(at 171.45 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f8a9d5af-04a8-492f-a38e-61d7077fbb77")
-		(property "Reference" "R7"
-			(at 170.18 71.882 90)
+		(uuid "c3b31892-5b3a-4e53-95bd-70a8c3bede88")
+		(property "Reference" "R15"
+			(at 170.18 144.272 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2052,7 +2247,7 @@
 			)
 		)
 		(property "Value" "180"
-			(at 170.18 74.422 90)
+			(at 170.18 146.812 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2061,7 +2256,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 160.02 77.47 0)
+			(at 160.02 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2070,7 +2265,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 77.47 0)
+			(at 171.45 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2079,7 +2274,7 @@
 			)
 		)
 		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
-			(at 171.45 77.47 0)
+			(at 171.45 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2088,15 +2283,297 @@
 			)
 		)
 		(pin "2"
-			(uuid "062bcadc-7616-4a71-af9a-592839d43bce")
+			(uuid "7760e43a-735d-447a-8f0e-53d1f2348bd6")
 		)
 		(pin "1"
-			(uuid "33237967-18e5-45ac-b91c-0346caeefbb0")
+			(uuid "69b1baae-8b4a-4f38-9e43-a4dc3383c35b")
 		)
 		(instances
 			(project "zorionx_nivara"
-				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/b48223f4-1983-42c0-b24e-fccbc0bccb73"
-					(reference "R7")
+				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/aa7002a9-6519-43d1-962e-402912e8a658"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_US_AKL:R_0603")
+		(at 115.57 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c749e6f7-ea7f-4e07-9676-e3d227b42246")
+		(property "Reference" "R16"
+			(at 115.57 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 115.57 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 127 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 115.57 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1a80e557-6e5d-48b8-94df-182a102b16e1")
+		)
+		(pin "1"
+			(uuid "065de615-3997-4a22-8bd1-4ca30a420956")
+		)
+		(instances
+			(project "zorionx_nivara"
+				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/aa7002a9-6519-43d1-962e-402912e8a658"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:LTV-357T")
+		(at 132.08 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2335c27-aa40-4e88-955e-1b396d4557fd")
+		(property "Reference" "U8"
+			(at 132.08 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTV-357T"
+			(at 132.08 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SO-4_4.4x3.6mm_P2.54mm"
+			(at 127 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Transistor-Photovoltaic-Output-Optoisolators_LITEON-LTV-357T-B_C33068.html?s_z=n_LTV-357T"
+			(at 132.08 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "35V 3.75kV 50mA 200mV@1mA,20mA 1 6V 1.2V DC SOP-4-2.54mm Transistor, Photovoltaic Output Optoisolators ROHS"
+			(at 132.08 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7af13ca4-d626-4783-9484-d80072406e28")
+		)
+		(pin "4"
+			(uuid "b5342da8-3ec9-4291-9bae-7a7032bca48d")
+		)
+		(pin "1"
+			(uuid "bd292c35-c76a-4269-b7a3-fdbdaaa221f5")
+		)
+		(pin "2"
+			(uuid "911ff181-793c-426d-8e2b-dc522df55e21")
+		)
+		(instances
+			(project "zorionx_nivara"
+				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/aa7002a9-6519-43d1-962e-402912e8a658"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_US_AKL:R_0603")
+		(at 114.3 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1817cc0-cfb9-4a94-a5b1-debd39b966fa")
+		(property "Reference" "R14"
+			(at 114.3 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 114.3 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 125.73 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 114.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0efd2e38-5456-4c7e-8a81-560c2727c31f")
+		)
+		(pin "1"
+			(uuid "f7a28827-fd59-49bf-9371-f5b797d4ef0c")
+		)
+		(instances
+			(project "zorionx_nivara"
+				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/aa7002a9-6519-43d1-962e-402912e8a658"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_US_AKL:R_0603")
+		(at 171.45 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6a7592e-b436-4651-aeae-d68ecf4c9259")
+		(property "Reference" "R13"
+			(at 170.18 94.742 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "180"
+			(at 170.18 97.282 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 160.02 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 171.45 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "166653e3-ea17-433c-bd9f-237fa288eb34")
+		)
+		(pin "1"
+			(uuid "a91819d6-4f74-42c9-9d63-8bfc00312aa1")
+		)
+		(instances
+			(project "zorionx_nivara"
+				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/aa7002a9-6519-43d1-962e-402912e8a658"
+					(reference "R13")
 					(unit 1)
 				)
 			)

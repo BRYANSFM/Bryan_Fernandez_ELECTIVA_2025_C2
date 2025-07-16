@@ -644,7 +644,7 @@
     ],
     [
       "d503c535-44f0-4809-990e-4f5ff3912845",
-      "PowerSupply"
+      "PowerSupply +3V"
     ],
     [
       "1f831b6c-7798-4c77-bf6f-f850ea2cc985",
@@ -652,11 +652,11 @@
     ],
     [
       "93cc587e-9f5c-4ebd-9459-6446a82ea961",
-      "Input_NPN"
+      "INPUTS_NPN"
     ],
     [
       "b48223f4-1983-42c0-b24e-fccbc0bccb73",
-      "Input_PNP"
+      "INPUTS_PNP"
     ],
     [
       "a7dc24b8-634f-4a07-a099-448d5c3dacf6",
@@ -665,6 +665,14 @@
     [
       "15072894-73c2-4bbc-9440-507e57f6e09d",
       "Output_PNP"
+    ],
+    [
+      "aa7002a9-6519-43d1-962e-402912e8a658",
+      "DIGITAL_IN"
+    ],
+    [
+      "2fc75700-43b6-4a7e-8ac9-f536ae32b879",
+      "ANALOG_IN"
     ]
   ],
   "text_variables": {}
