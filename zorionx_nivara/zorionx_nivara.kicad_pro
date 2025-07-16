@@ -673,6 +673,14 @@
     [
       "2fc75700-43b6-4a7e-8ac9-f536ae32b879",
       "ANALOG_IN"
+    ],
+    [
+      "ab2d13b4-e2e9-42d1-ad5e-9183b81cadef",
+      "RELAY_#1_#2"
+    ],
+    [
+      "65321c93-fecc-407a-a56f-3dd1acc7b847",
+      "ANALOG_OUT"
     ]
   ],
   "text_variables": {}

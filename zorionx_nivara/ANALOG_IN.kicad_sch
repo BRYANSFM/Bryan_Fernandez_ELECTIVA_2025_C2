@@ -2551,7 +2551,7 @@
 		(dnp no)
 		(uuid "58609a40-2418-4956-8d75-7afbff499067")
 		(property "Reference" "D12"
-			(at 150.368 46.482 90)
+			(at 151.638 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2560,7 +2560,7 @@
 			)
 		)
 		(property "Value" "SMAJ5.0A"
-			(at 150.622 49.276 90)
+			(at 151.892 45.974 90)
 			(effects
 				(font
 					(size 1.27 1.27)

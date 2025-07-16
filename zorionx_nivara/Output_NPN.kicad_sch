@@ -2640,7 +2640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd1987ec-db76-4831-8b38-cb13275e9b72")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR0102"
 			(at 129.54 68.58 0)
 			(effects
 				(font
@@ -2690,7 +2690,7 @@
 		(instances
 			(project "zorionx_nivara"
 				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/a7dc24b8-634f-4a07-a099-448d5c3dacf6"
-					(reference "#PWR033")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
