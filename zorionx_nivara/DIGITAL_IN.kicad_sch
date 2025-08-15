@@ -494,6 +494,119 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_4ms_Power-symbol:+3.3V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_Resistor_US_AKL:R_0603"
 			(pin_numbers
 				(hide yes)
@@ -1439,17 +1552,6 @@
 		)
 		(uuid "4cf67974-e77b-492d-8aab-23b2fc1c5800")
 	)
-	(hierarchical_label "+3.3V"
-		(shape input)
-		(at 177.8 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5cd30966-6e3f-4d3a-8e5a-60ae14da92c7")
-	)
 	(hierarchical_label "ESP32-S3_DIGITAL_IN_1"
 		(shape output)
 		(at 165.1 62.23 0)
@@ -1460,28 +1562,6 @@
 			(justify left)
 		)
 		(uuid "81950d43-fb29-40fa-9395-c233d2bb02b6")
-	)
-	(hierarchical_label "+3.3V"
-		(shape input)
-		(at 182.88 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "99fd05d2-4f9b-4df1-8326-13f3e002d612")
-	)
-	(hierarchical_label "+3.3V"
-		(shape input)
-		(at 181.61 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a54b396e-0ae7-4186-85e0-edcb7bd8113c")
 	)
 	(hierarchical_label "ESP32-S3_RUN_IN"
 		(shape output)
@@ -1724,6 +1804,140 @@
 			(project "zorionx_nivara"
 				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/aa7002a9-6519-43d1-962e-402912e8a658"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Power-symbol:+3.3V")
+		(at 181.61 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25ebdc6a-fa5a-451b-9c1a-782589411e8b")
+		(property "Reference" "#PWR067"
+			(at 177.8 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 185.42 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d1c3b89-de1f-4f3e-95fc-700509b64e21")
+		)
+		(instances
+			(project "zorionx_nivara"
+				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/aa7002a9-6519-43d1-962e-402912e8a658"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Power-symbol:+3.3V")
+		(at 177.8 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39dba49a-dea8-4e4a-939a-65bf0f20c38c")
+		(property "Reference" "#PWR068"
+			(at 173.99 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 181.61 149.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ad83d6d-067c-4f79-a2b2-d6bcdc444128")
+		)
+		(instances
+			(project "zorionx_nivara"
+				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/aa7002a9-6519-43d1-962e-402912e8a658"
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -2574,6 +2788,73 @@
 			(project "zorionx_nivara"
 				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/aa7002a9-6519-43d1-962e-402912e8a658"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Power-symbol:+3.3V")
+		(at 182.88 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7f879cb-c6ac-4862-bc9d-edc1b976159c")
+		(property "Reference" "#PWR074"
+			(at 179.07 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 186.69 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8db143ec-041d-439f-a10f-720a22331ec4")
+		)
+		(instances
+			(project "zorionx_nivara"
+				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/aa7002a9-6519-43d1-962e-402912e8a658"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)

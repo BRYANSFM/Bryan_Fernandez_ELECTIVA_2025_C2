@@ -1986,7 +1986,7 @@
 				)
 			)
 		)
-		(property "Value" "Screw_Terminal_2_P5.00mm"
+		(property "Value" "Entrada NPN"
 			(at 98.425 121.92 0)
 			(effects
 				(font
@@ -2055,7 +2055,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_4_P5.00mm"
+		(property "Value" "Salidas NPN/PNP"
 			(at 151.13 160.0199 0)
 			(effects
 				(font
@@ -2131,7 +2131,7 @@
 				)
 			)
 		)
-		(property "Value" "Screw_Terminal_4_P5.00mm"
+		(property "Value" "Entradas Analogicas"
 			(at 98.425 157.48 0)
 			(effects
 				(font
@@ -2273,7 +2273,7 @@
 				)
 			)
 		)
-		(property "Value" "Screw_Terminal_2_P5.00mm"
+		(property "Value" "RUN/STOP"
 			(at 98.425 186.69 0)
 			(effects
 				(font
@@ -2342,7 +2342,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_3_P5.00mm"
+		(property "Value" "RS-485"
 			(at 151.13 128.2699 0)
 			(effects
 				(font
@@ -2415,7 +2415,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_3_P5.00mm"
+		(property "Value" "Salidas Analogicas"
 			(at 151.13 142.2399 0)
 			(effects
 				(font
@@ -2488,7 +2488,7 @@
 				)
 			)
 		)
-		(property "Value" "Screw_Terminal_2_P5.00mm"
+		(property "Value" "Alimentacion"
 			(at 117.475 113.03 0)
 			(effects
 				(font
@@ -2755,7 +2755,7 @@
 				)
 			)
 		)
-		(property "Value" "Screw_Terminal_2_P5.00mm"
+		(property "Value" "Entrada PNP"
 			(at 98.425 130.81 0)
 			(effects
 				(font
@@ -2889,7 +2889,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_6_P5.00mm"
+		(property "Value" "Reles"
 			(at 151.13 177.7999 0)
 			(effects
 				(font
@@ -3103,7 +3103,7 @@
 				)
 			)
 		)
-		(property "Value" "Screw_Terminal_2_P5.00mm"
+		(property "Value" "Entradas digitales"
 			(at 98.425 161.29 0)
 			(effects
 				(font
@@ -3434,26 +3434,6 @@
 				(justify right)
 			)
 		)
-		(pin "D_IN1" input
-			(at 106.68 165.1 180)
-			(uuid "ae6c1d76-5882-4e52-aef3-4ed5085be4f1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "D_IN2" input
-			(at 106.68 167.64 180)
-			(uuid "f7cd9aa0-a7c0-401a-85c9-3b9703964c9d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "NPN_IN_1" input
 			(at 106.68 125.73 180)
 			(uuid "89b5a432-ae10-4c9a-a2e8-cdfca139f4fe")
@@ -3622,6 +3602,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "DIGITAL_IN1" input
+			(at 106.68 165.1 180)
+			(uuid "7a2c635d-1ce6-4ff8-9549-3a32a6f22f79")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIGITAL_IN2" input
+			(at 106.68 167.64 180)
+			(uuid "1db50804-9fab-47dd-9e5b-e738b84a3d1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
