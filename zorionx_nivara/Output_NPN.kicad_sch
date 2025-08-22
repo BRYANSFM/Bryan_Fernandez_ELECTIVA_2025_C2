@@ -1170,6 +1170,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Salida NPN #1"
 		(exclude_from_sim no)
@@ -1437,7 +1562,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 21.59) (xy 167.64 21.59)
+			(xy 163.83 21.59) (xy 171.45 21.59)
 		)
 		(stroke
 			(width 0)
@@ -1635,17 +1760,6 @@
 		)
 		(uuid "fd7bab7f-eb33-490a-978f-cb7a23c55968")
 	)
-	(hierarchical_label "VCC2"
-		(shape input)
-		(at 168.91 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "16fe0da8-68ab-4168-8942-0525849ee9e2")
-	)
 	(hierarchical_label "ESP32-S3_NPN_OUT_2"
 		(shape input)
 		(at 118.11 137.16 180)
@@ -1679,17 +1793,6 @@
 		)
 		(uuid "ac7d1b9e-2fee-4c21-b884-8811f1b78342")
 	)
-	(hierarchical_label "VCC2"
-		(shape input)
-		(at 167.64 21.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c2f374e5-d7e5-483d-8ecf-85445b42def5")
-	)
 	(hierarchical_label "NPN_OUT_2"
 		(shape output)
 		(at 172.72 132.08 0)
@@ -1703,16 +1806,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 144.78 0)
+		(at 148.59 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "14d2f0eb-8804-4d5e-93c3-8e84f1bf12f6")
-		(property "Reference" "#PWR036"
-			(at 130.81 151.13 0)
+		(uuid "1598f0b7-e5c8-49d7-9db3-cf80a6f91db0")
+		(property "Reference" "#PWR034"
+			(at 148.59 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1720,8 +1823,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND1"
-			(at 130.81 149.86 0)
+		(property "Value" "GND"
+			(at 148.59 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1729,7 +1832,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 144.78 0)
+			(at 148.59 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1738,7 +1841,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 144.78 0)
+			(at 148.59 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1747,7 +1850,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 144.78 0)
+			(at 148.59 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1756,12 +1859,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "adea2d15-4ea3-40e4-ab50-5343b3b129b1")
+			(uuid "ae2ce1ae-755b-437a-963c-20495114ab1a")
 		)
 		(instances
 			(project "zorionx_nivara"
 				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/a7dc24b8-634f-4a07-a099-448d5c3dacf6"
-					(reference "#PWR036")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -1985,6 +2088,72 @@
 			(project "zorionx_nivara"
 				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/a7dc24b8-634f-4a07-a099-448d5c3dacf6"
 					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62e2eee6-b220-4c67-b764-6b8cafd7aa56")
+		(property "Reference" "#PWR037"
+			(at 149.86 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb18e696-3514-4462-b195-a08def27a532")
+		)
+		(instances
+			(project "zorionx_nivara"
+				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/a7dc24b8-634f-4a07-a099-448d5c3dacf6"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -2293,72 +2462,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 165.1 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c56dc9a-48d7-46d1-acc2-96443d5eead9")
-		(property "Reference" "#PWR038"
-			(at 165.1 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND2"
-			(at 165.1 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "015ecb28-d6f9-4193-a45f-a01bbbc18662")
-		)
-		(instances
-			(project "zorionx_nivara"
-				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/a7dc24b8-634f-4a07-a099-448d5c3dacf6"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Resistor_US_AKL:R_0603")
 		(at 127 137.16 90)
 		(unit 1)
@@ -2428,16 +2531,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 149.86 144.78 0)
+		(at 165.1 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9d952326-ffe1-4aab-8173-efd716124407")
-		(property "Reference" "#PWR037"
-			(at 149.86 151.13 0)
+		(uuid "96802991-3bb1-4064-8519-6a2918767e1a")
+		(property "Reference" "#PWR038"
+			(at 165.1 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2445,8 +2548,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND2"
-			(at 149.86 149.86 0)
+		(property "Value" "GND"
+			(at 165.1 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2454,7 +2557,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 144.78 0)
+			(at 165.1 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2463,7 +2566,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 144.78 0)
+			(at 165.1 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2472,7 +2575,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 144.78 0)
+			(at 165.1 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2481,12 +2584,79 @@
 			)
 		)
 		(pin "1"
-			(uuid "77a1f35d-9f38-46e7-bfed-c4f291883091")
+			(uuid "cd355dc2-fa8a-438d-9fcd-0ed51e599138")
 		)
 		(instances
 			(project "zorionx_nivara"
 				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/a7dc24b8-634f-4a07-a099-448d5c3dacf6"
-					(reference "#PWR037")
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 168.91 104.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d11c877-7064-4245-a3d3-66684372db1e")
+		(property "Reference" "#PWR086"
+			(at 165.1 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 172.72 104.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 168.91 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88a7a0bd-5210-4a9a-8821-240401ac4172")
+		)
+		(instances
+			(project "zorionx_nivara"
+				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/a7dc24b8-634f-4a07-a099-448d5c3dacf6"
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -2556,6 +2726,72 @@
 			(project "zorionx_nivara"
 				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/a7dc24b8-634f-4a07-a099-448d5c3dacf6"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 130.81 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0f7988c-0043-42d8-b439-f8afe966a1c3")
+		(property "Reference" "#PWR036"
+			(at 130.81 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cb26146-79a3-4be0-9963-1092440c7763")
+		)
+		(instances
+			(project "zorionx_nivara"
+				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/a7dc24b8-634f-4a07-a099-448d5c3dacf6"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -2632,16 +2868,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.54 62.23 0)
+		(at 163.83 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cd1987ec-db76-4831-8b38-cb13275e9b72")
-		(property "Reference" "#PWR0102"
-			(at 129.54 68.58 0)
+		(uuid "c31999e1-ab0c-4564-9903-e45be8a4bbe6")
+		(property "Reference" "#PWR033"
+			(at 163.83 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2649,8 +2885,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND1"
-			(at 129.54 67.31 0)
+		(property "Value" "GND"
+			(at 163.83 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2658,7 +2894,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 62.23 0)
+			(at 163.83 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2667,7 +2903,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 62.23 0)
+			(at 163.83 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2676,7 +2912,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 62.23 0)
+			(at 163.83 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2685,12 +2921,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e60754df-dffc-4dd1-a4b6-05eabbf6e2f0")
+			(uuid "7640333e-7e80-4cca-9c5f-ef1e1e9f7151")
 		)
 		(instances
 			(project "zorionx_nivara"
 				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/a7dc24b8-634f-4a07-a099-448d5c3dacf6"
-					(reference "#PWR0102")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -2765,17 +3001,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 163.83 73.66 0)
+		(lib_id "power:VCC")
+		(at 171.45 21.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d2b35640-e420-42bc-a643-1045819bb195")
-		(property "Reference" "#PWR033"
-			(at 163.83 80.01 0)
+		(uuid "df229fe5-357e-4e27-9099-4ee36e0f98a5")
+		(property "Reference" "#PWR085"
+			(at 167.64 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2783,16 +3019,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND2"
-			(at 163.83 78.74 0)
+		(property "Value" "VCC"
+			(at 175.26 21.5899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 73.66 0)
+			(at 171.45 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2801,7 +3038,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 73.66 0)
+			(at 171.45 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2809,8 +3046,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 73.66 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 171.45 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2819,12 +3056,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f3160e5a-6354-4d3a-abd0-f1c8ad82a7c1")
+			(uuid "81c74900-7d9e-4bcd-80de-b5e26c2e91b3")
 		)
 		(instances
-			(project "zorionx_nivara"
+			(project ""
 				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/a7dc24b8-634f-4a07-a099-448d5c3dacf6"
-					(reference "#PWR033")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -3047,16 +3284,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 148.59 62.23 0)
+		(at 129.54 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f2daad1e-ce1c-455f-94bd-087d72aa2bef")
-		(property "Reference" "#PWR034"
-			(at 148.59 68.58 0)
+		(uuid "e8f674e9-eebc-425d-81a3-a0620767256d")
+		(property "Reference" "#PWR084"
+			(at 129.54 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3064,8 +3301,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND2"
-			(at 148.59 67.31 0)
+		(property "Value" "GND"
+			(at 129.54 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3073,7 +3310,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 62.23 0)
+			(at 129.54 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3082,7 +3319,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 62.23 0)
+			(at 129.54 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3091,7 +3328,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 62.23 0)
+			(at 129.54 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3100,12 +3337,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cbd60d46-5038-46f1-8534-1b2950ae0e97")
+			(uuid "4e40236b-386b-43b4-930a-ac5b26ac5a5b")
 		)
 		(instances
-			(project "zorionx_nivara"
+			(project ""
 				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/a7dc24b8-634f-4a07-a099-448d5c3dacf6"
-					(reference "#PWR034")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)

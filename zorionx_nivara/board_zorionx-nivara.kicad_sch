@@ -1866,16 +1866,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 29.21) (xy 195.58 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "101f647e-1c1d-4d29-bbf7-b2b41e2b04e8")
-	)
-	(wire
-		(pts
 			(xy 123.19 107.95) (xy 123.19 101.6)
 		)
 		(stroke
@@ -2026,16 +2016,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 59.69) (xy 88.9 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29563047-28ba-4da1-a912-00411dfe3672")
-	)
-	(wire
-		(pts
 			(xy 35.56 82.55) (xy 40.64 82.55)
 		)
 		(stroke
@@ -2093,6 +2073,16 @@
 			(type default)
 		)
 		(uuid "2f5613cc-f3ab-49a8-a944-41de8031b04a")
+	)
+	(wire
+		(pts
+			(xy 195.58 158.75) (xy 195.58 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f675665-d000-488f-aeaa-9d293ccf64bf")
 	)
 	(wire
 		(pts
@@ -2193,16 +2183,6 @@
 			(type default)
 		)
 		(uuid "39178620-60a5-4b21-a6fa-a62baf3f7045")
-	)
-	(wire
-		(pts
-			(xy 74.93 140.97) (xy 80.01 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a947f53-9b79-4f1f-8091-0048909d071e")
 	)
 	(wire
 		(pts
@@ -2586,6 +2566,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 156.21) (xy 193.04 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f34cd0d-c379-4d91-a7a3-52251b2a3174")
+	)
+	(wire
+		(pts
 			(xy 144.78 76.2) (xy 137.16 76.2)
 		)
 		(stroke
@@ -2673,16 +2663,6 @@
 			(type default)
 		)
 		(uuid "a51d0be2-550a-41d0-a913-481c83c27526")
-	)
-	(wire
-		(pts
-			(xy 78.74 185.42) (xy 62.23 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6a86e2d-e1b2-4500-a8bd-3bf901923bb8")
 	)
 	(wire
 		(pts
@@ -2886,6 +2866,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 111.76) (xy 175.26 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1ed4390-1703-4f51-987a-610214c4da43")
+	)
+	(wire
+		(pts
 			(xy 123.19 127) (xy 113.03 127)
 		)
 		(stroke
@@ -2923,6 +2913,16 @@
 			(type default)
 		)
 		(uuid "dbbb38df-6140-4c49-af0e-d261648e941d")
+	)
+	(wire
+		(pts
+			(xy 171.45 158.75) (xy 195.58 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de9ca806-80a9-4384-ba6b-0b26d00d0c08")
 	)
 	(wire
 		(pts
@@ -2976,6 +2976,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 156.21) (xy 193.04 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6627d0f-d146-43e1-96c3-5be3c1792627")
+	)
+	(wire
+		(pts
 			(xy 115.57 100.33) (xy 107.95 100.33)
 		)
 		(stroke
@@ -2993,6 +3003,16 @@
 			(type default)
 		)
 		(uuid "e903c53b-54f5-4fcc-b77b-872be40419ec")
+	)
+	(wire
+		(pts
+			(xy 193.04 114.3) (xy 175.26 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed61d36a-c5ec-4816-991c-4ebd85377fce")
 	)
 	(wire
 		(pts
@@ -3319,73 +3339,6 @@
 		(uuid "f24b02a3-2935-449e-8a17-39127c9e5956")
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 74.93 140.97 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0617ae71-5d5a-41fd-a4a7-eeee9c7a7ce3")
-		(property "Reference" "#PWR050"
-			(at 78.74 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC1"
-			(at 71.12 140.9699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 74.93 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bae60cc8-547a-4516-98d3-a0adb002f917")
-		)
-		(instances
-			(project "zorionx_nivara"
-				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 160.02 27.94 0)
 		(unit 1)
@@ -3596,73 +3549,6 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 85.09 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3be45fb5-4ab2-4c80-a9e3-99a426a5a8e0")
-		(property "Reference" "#PWR021"
-			(at 88.9 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC2"
-			(at 81.28 59.6899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 85.09 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6a24156-f57a-468f-80a1-a4a83d7156fb")
-		)
-		(instances
-			(project "zorionx_nivara"
-				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
 		(at 44.45 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3790,73 +3676,6 @@
 			(project "zorionx_nivara"
 				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b"
 					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 194.31 29.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "796ed812-85d9-4fdb-9119-a10340b05e06")
-		(property "Reference" "#PWR018"
-			(at 198.12 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 190.5 29.2099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 194.31 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d090e8a-3914-49e8-9068-74867151dbab")
-		)
-		(instances
-			(project ""
-				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4060,73 +3879,6 @@
 			(project ""
 				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 62.23 185.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9dcc2f5-8ddc-4628-9026-6215b1027135")
-		(property "Reference" "#PWR046"
-			(at 66.04 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC2"
-			(at 58.42 185.4199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 62.23 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e347f9a2-b331-498a-9bb2-60d215c58161")
-		)
-		(instances
-			(project "zorionx_nivara"
-				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b"
-					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -4527,16 +4279,6 @@
 				(justify left)
 			)
 		)
-		(pin "VCC2" input
-			(at 78.74 185.42 180)
-			(uuid "948778f2-3562-43bb-ad3d-322c3f3bb871")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(instances
 			(project "zorionx_nivara"
 				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b"
@@ -4802,13 +4544,13 @@
 			)
 		)
 		(pin "SCLK_C" input
-			(at 143.51 156.21 180)
+			(at 171.45 156.21 0)
 			(uuid "d8a7ba86-23cb-4802-aef5-f72ce4e3311c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SCLK_V" input
@@ -4822,13 +4564,13 @@
 			)
 		)
 		(pin "SDA_C" input
-			(at 143.51 158.75 180)
+			(at 171.45 158.75 0)
 			(uuid "315fa9ed-0d95-46ae-892c-9690c2084165")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SDA_V" input
@@ -4929,16 +4671,6 @@
 		(pin "NPN_IN_2" input
 			(at 88.9 69.85 180)
 			(uuid "0d50f345-24c1-4815-b535-8dd9473fdfe0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VCC" input
-			(at 88.9 59.69 180)
-			(uuid "ccd5dc5a-5561-4ba6-b6e9-e04cf24cd23d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5270,16 +5002,6 @@
 				(justify left)
 			)
 		)
-		(pin "VCC1" input
-			(at 80.01 140.97 180)
-			(uuid "6ec8a84f-e9d0-4b2e-8cc0-a7a11c2f146d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(instances
 			(project "zorionx_nivara"
 				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b"
@@ -5408,16 +5130,6 @@
 				)
 				(justify left top)
 				(hide yes)
-			)
-		)
-		(pin "VCC" input
-			(at 195.58 29.21 180)
-			(uuid "0e553e44-9209-4823-9ffa-4976acfe09ea")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(instances

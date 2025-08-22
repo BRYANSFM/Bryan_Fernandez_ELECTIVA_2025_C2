@@ -2776,6 +2776,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 143.51 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b9100c4-7edf-460f-84dd-a907c283fb31")
+		(property "Reference" "#PWR024"
+			(at 143.51 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db9eddbd-b68c-4a4c-ae80-05cb89683e5a")
+		)
+		(instances
+			(project "zorionx_nivara"
+				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/1f831b6c-7798-4c77-bf6f-f850ea2cc985"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 137.16 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2914,72 +2980,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 143.51 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67f42ccb-22f6-4570-8356-c037814943c8")
-		(property "Reference" "#PWR024"
-			(at 143.51 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 143.51 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e8452933-47b7-40d8-91c6-cb4fdc25b840")
-		)
-		(instances
-			(project "zorionx_nivara"
-				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/1f831b6c-7798-4c77-bf6f-f850ea2cc985"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Resistor_US_AKL:R_0603")
 		(at 158.75 91.44 90)
 		(unit 1)
@@ -2997,7 +2997,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603"
+		(property "Value" "47K"
 			(at 158.75 87.63 90)
 			(effects
 				(font
@@ -3126,8 +3126,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c6015ef3-346c-4e3f-a08b-e3890e5576eb")
-		(property "Reference" "#PWR0101"
+		(uuid "ac673045-7520-496d-8d47-84b13d0b248f")
+		(property "Reference" "#PWR046"
 			(at 96.52 110.49 0)
 			(effects
 				(font
@@ -3136,7 +3136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND1"
+		(property "Value" "GND"
 			(at 96.52 109.22 0)
 			(effects
 				(font
@@ -3172,12 +3172,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "620c7265-433e-43cc-b633-a1e9e644c85a")
+			(uuid "626b3484-05ff-46ed-bb91-e1453c547835")
 		)
 		(instances
-			(project "zorionx_nivara"
+			(project ""
 				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b/1f831b6c-7798-4c77-bf6f-f850ea2cc985"
-					(reference "#PWR0101")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -3201,7 +3201,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603"
+		(property "Value" "47K"
 			(at 167.64 90.17 90)
 			(effects
 				(font
