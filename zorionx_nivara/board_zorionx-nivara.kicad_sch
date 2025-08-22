@@ -2346,6 +2346,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 45.72) (xy 168.91 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5faed3fc-293d-4532-bac5-6511cb894764")
+	)
+	(wire
+		(pts
 			(xy 101.6 116.84) (xy 113.03 116.84)
 		)
 		(stroke
@@ -2566,6 +2576,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 34.29) (xy 179.07 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b61c014-aaa9-4577-9bac-942dbdea4e6a")
+	)
+	(wire
+		(pts
 			(xy 171.45 156.21) (xy 193.04 156.21)
 		)
 		(stroke
@@ -2613,6 +2633,16 @@
 			(type default)
 		)
 		(uuid "992dc067-4076-4730-9e77-26eb745a6f58")
+	)
+	(wire
+		(pts
+			(xy 168.91 50.8) (xy 160.02 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b0340f4-ced5-4995-8848-b135f6f84d7f")
 	)
 	(wire
 		(pts
@@ -2836,6 +2866,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 34.29) (xy 179.07 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce3b72de-4f0b-489c-ac28-747396e3ee52")
+	)
+	(wire
+		(pts
 			(xy 133.35 91.44) (xy 144.78 91.44)
 		)
 		(stroke
@@ -2983,6 +3023,16 @@
 			(type default)
 		)
 		(uuid "e6627d0f-d146-43e1-96c3-5be3c1792627")
+	)
+	(wire
+		(pts
+			(xy 168.91 38.1) (xy 168.91 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6d28510-d2dd-4002-8209-c7db620e286c")
 	)
 	(wire
 		(pts
@@ -3337,6 +3387,76 @@
 			(justify left)
 		)
 		(uuid "f24b02a3-2935-449e-8a17-39127c9e5956")
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0603")
+		(at 168.91 41.91 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0527282b-3962-415a-8667-e5dd0a85ca85")
+		(property "Reference" "C16"
+			(at 176.276 40.386 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 173.736 40.386 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
+			(at 169.8752 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
+			(at 168.91 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e927009-cfa1-4453-bdc3-d16346350b14")
+		)
+		(pin "2"
+			(uuid "7b6a7413-80c5-4626-871d-37b91401dc9f")
+		)
+		(instances
+			(project "zorionx_nivara"
+				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -3809,6 +3929,71 @@
 			(project "zorionx_nivara"
 				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b"
 					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 179.07 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "afe6143a-f81b-4da7-ae21-90107b62a928")
+		(property "Reference" "#PWR088"
+			(at 179.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 178.816 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdc16184-67e8-4901-a69b-f842353abc51")
+		)
+		(instances
+			(project "zorionx_nivara"
+				(path "/c1255741-5652-463a-8cfd-bd2388ad7ef1/ee2c52cb-3406-40a8-8a05-a93f573fe34b"
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -4324,26 +4509,6 @@
 				(justify left top)
 			)
 		)
-		(pin "RS485-A" output
-			(at 218.44 50.8 0)
-			(uuid "2cc9deaf-ce14-4b50-8454-ae316b05b958")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RS485-B" output
-			(at 218.44 53.34 0)
-			(uuid "c7f88b3c-48da-4ed3-b725-e83af669f6d0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "UART_IN" input
 			(at 189.23 50.8 180)
 			(uuid "f69a594d-d183-40bd-94eb-d387af77f0b6")
@@ -4362,6 +4527,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "RS485_A" bidirectional
+			(at 218.44 50.8 0)
+			(uuid "d10ce19e-a141-44ea-9635-05e19f4bf806")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RS485_B" bidirectional
+			(at 218.44 53.34 0)
+			(uuid "bf287178-43ac-498d-8797-ef25f08d897e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
